@@ -1,4 +1,6 @@
 #comando
+# Resumo
+
 O comando `gcc` (GNU C Compiler), padrão Unix para o comando `cc` (C Compiler), é utilizado para a compilação e linkagem de arquivos C, a fim de gerar um executável passível de ser utilizado.
 
 O comando mais simples é:
@@ -16,6 +18,8 @@ gcc -o <executavel> <fonte1>.c <fonte2>.c (...) <fonteN>.c
 ```
 
 Nesse caso, o `gcc` compila todos os arquivos e faz a linkagem automaticamente.
+
+# Flags
 
 As *flags* mais comuns são:
 
@@ -35,8 +39,12 @@ As *flags* mais comuns são:
 	  gcc -c arquivo.c
 	  ```
 - `-I<diretorio>`  
-    Adiciona um diretório para busca de headers (`.h`).
+	- Adiciona um diretório para busca de headers (`.h`).
 - `-L<diretorio>`  
-    Adiciona um diretório para busca de bibliotecas.
+	- Adiciona um diretório para busca de bibliotecas.
 - `-l<nome>`  
-    Linka uma biblioteca (ex: `-lm` para matemática).
+	- Linka uma biblioteca (ex: `-lm` para matemática).
+- `-std=`
+	- Permite definir a versão que será compilada.
+- `-pedantic`
+	- Pede para o compilador ser pedante com a documentação da versão de C requisitada.
