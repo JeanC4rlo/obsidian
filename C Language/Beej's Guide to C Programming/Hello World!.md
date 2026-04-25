@@ -1,3 +1,5 @@
+#capitulo
+
 ```C
 // hello.c
 #include <stdio.h>
@@ -16,7 +18,7 @@ A instrução `printf` não existe por padrão em C e é incluída através da i
 
 Por fim, `return 0` encerra a função `main()`, ou seja, o programa com código de saída `0`.
 
-Dessa forma, podemos compilar e *linkar* o programa, em Unix, utilizando o `cc`ou `gcc` via o comando:
+Dessa forma, podemos compilar e *linkar* o programa, em Unix, utilizando o [[gcc |`cc`ou `gcc`]]via o comando:
 
 ```bash
 gcc -o hello hello.c
